@@ -1,0 +1,247 @@
+<!Doctype>
+<html>
+  <head>
+    <title>&copy;nkeksi.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="../css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="../css/main.css" rel="stylesheet">
+
+    <!-- end of the bootstrap library -->
+  </head>
+  <body>
+      <!-- Bootstrap js library  and jquery-->
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery2.js"></script>
+<script src="../css/bootstrap/js/bootstrap.min.js"></script>
+      <!-- End of bootstrap js library -->
+<!-- Modal section for the sign in and register button -->
+<!-- Modal for register -->
+<div class="modal fade modal-register" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="false"><img src="../images/quit.png" class="img-responsive"></span></button>
+        <h4 class="modal-title" id="myModalLabel"><u>SIGN IN</u></h4><br>
+        <p class="green">To start using Nkeksi, please kindly sign in by <br>providing the following information in this form.
+        </p>
+      </div>
+
+       <form class="form-horizontal"><!-- form commence here -->
+      <div class="modal-body">
+       
+         
+  <div class="form-group text-center">
+    <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control form-modal" id="inputEmail" placeholder="name@example.com">
+    </div>
+  </div>
+  <br>
+  <div class="form-group text-center">
+    <label for="inputPassword" class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control form-modal" id="inputPassword" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-4 col-sm-8">
+        <label>
+          Forgot your password? <a href="#" class="red">Click Here</a>
+        </label>
+    </div>
+  </div>
+      </div><!-- end of modal body -->
+
+      <div class="modal-footer">
+         <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-8">
+            <button type="submit" class="btn btn-default btn-success signButton">Sign in</button>
+          </div>
+        </div>
+      </div><!-- end of modal footer-->
+
+    </form><!-- end of form -->
+
+    </div>
+  </div>
+</div>
+<!-- end of the modal register-->
+
+<div class="container-fluid">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand header-nav" href="#"><span class="logo-title">nkeksi</span>
+        <!-- <img src="../images/nkeksi-logo.jpg" alt="nkeksi-logo" title="nkeksi-logo" width="140"> -->
+        </a>
+      </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                 <ul class="nav navbar-nav navbar-right">
+              <!-- Buttons to give a modal -->
+                <li><button type="button" class="btn btn-success header-btn" data-toggle="modal" data-target="#myModal">SIGN IN</button></li>                    
+                <li><button type="button" class="btn btn-success header-btn" data-toggle="modal" data-target="#myModal">REGISTER</button></li>
+                    <li><button type="button" class="btn btn-success header-btn hide">SIGN OUT</button></li>
+
+                  
+                 </ul>
+             </div>
+  </nav>
+    
+    <div class="row">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+
+        <div class="item active" id="slide1"></div>
+
+         <div class="item" id="slide2"></div>
+
+         <div class="item" id="slide3"></div>
+
+         <div class="item" id="slide4"></div>
+
+         <div class="item" id="slide5"></div>
+
+  <!-- Controls -->
+  <div class="row col-lg-4 col-lg-offset-4 col-sm-6 col-md-6 text-center carousel-foreground">
+    <h1 class="text-center">Order your favourite food</h1>
+    <hr>
+    <h3 class="text-center">Find the food you need from the<br>
+      cameroonian restaurant you love
+    </h3>
+  </div>
+
+  </div><!-- end of carosel inner-->
+  </div><!-- end of ... -->
+  </div><!-- end of row for carosel -->
+
+
+  <div class="row" id="div-of-logo">
+    <div class="col-lg-2 col-lg-offset-2">
+       <div class="thumbnail img-responsive center-block">
+          <img src="../images/restaurant.png" alt="restaurant logo" title="restaurant logo">
+          <div class="text-center"><button type="button" class="btn btn-success">Restaurants</button></div>
+       </div>  
+      </div>
+    <div class="col-lg-2 col-lg-offset-4">
+        <div class="thumbnail img-responsive center-block">
+         <img src="../images/supermarket.png" alt="supermarket logo" title="supermarket logo">
+         <div class="text-center"><button type="button" class="btn btn-success">Supermarket</button></div>
+       </div>
+      </div>
+  </div>
+
+<div class="container" id="div-videotutorials">
+  <div class="col-lg-4" id="video-div">
+     <video class="img-responsive" width="350" height="240" autoplay controls>
+      <source src="../videos/Computer.mp4" type="video/mp4">
+      <source src="../videos/Computer.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+    </video> 
+  </div>
+  <div class="col-lg-8 text-center">
+    <h2>Video tutorial</h2>
+    <p>Learn how to use Nkeksi to order the food<br>you want from any Cameroonian restaurant,<br>ssupermarkets.</p>
+  </div>
+</div>
+<p class="clearfix"/>
+<div class="row">
+<div class="col-lg-2 text-center"><h3 id="testimonial-heading">What Clients say <br><span class="glyphicon glyphicon-user"></span></h3></div>
+<div class="col-lg-8 text-center special-line"><hr></div>
+</div>
+
+<p class="clearfix"/>
+
+<div class="container"> 
+ <div class="row">
+        <div class="col-lg-4">
+          <h2>User</h2>
+          <img src="../images/testimonial2.jpg" class="thumbnail img-responsive">
+          <p>As of v9.1.2, Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing.</p>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        </div>
+        <div class="col-lg-4">
+          <h2>Restaurant</h2>
+          <img src="../images/Francois_testimonial.jpg" class="thumbnail img-responsive">
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+       </div>
+        <div class="col-lg-4">
+          <h2>Supermarket</h2>
+          <img src="../images/cake-219595_1920.jpg" class="thumbnail img-responsive">
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+        </div>
+      </div>
+</div>
+
+  <div class="row footerdiv">
+      <div class="container-fluid text-center" id="top-page-link">
+        <a href="#"><span class="text-left">top</span></a>
+      </div>
+<p class="clearfix"/>
+<p class="clearfix"/>
+<footer class="">
+
+        <div class="col-lg-4 footer-left text-center">
+          <p class="text-center">partner with us <span class="glyphicon glyphicon-arrow-down"><span></p>
+  <button type="submit" class="btn btn-success">Become a Restaurant Partner</button><br><br>
+  <button type="submit" class="btn btn-success">Become a Supermarket Partner</button>
+
+        </div>
+
+        <div class="col-lg-4 footer-center text-center">
+          <div class="">
+          <p>Get Our App for free.</p>
+          <img src="../images/outofdate-badge_no.png" class="center-block img-responsive">
+          </div>
+<p class="clearfix">
+        <div class="copyright">
+          <p>
+             &copy; 2017 www.nkeksi.com ...<br>
+            powered by Fireflies Technologies.
+          </p>
+        </div>
+       </div>
+
+        <div class="col-lg-3 col-lg-offset-1 footer-right text-center">
+                <div class="footer-links" style="text-align:left">
+                  <li><a href="#">Help</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms of use</a></li>
+                  <li><a href="#">FAQs</a></li>
+                  <li></li>
+                </div>
+               <div class="footer-icons">
+                        <p>follow us:</p>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
+              </div>
+
+        </div>
+    </footer>
+</div>
+
+
+
+
+</div><!--end of container fluid -->
+
+  </body>
+
+</html>
